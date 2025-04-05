@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[target="_blank"] {
+            color: red;
+        }
+
+        p[title~="belajar"] {
+            color: blueviolet;
+        }
+
+        h1[title|="belajar"] {
+            color: brown;
+        }
+
+        h2[title^="belajar"] {
+            color: cadetblue;
+        }
+
+        h3[title$="belajar"] {
+            color: coral;
+        }
+
+        h4[title*="belajar"] {
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="" target="_blank">contoh 1</a>
+    <a href="">contoh 2</a>
+    <a href="" target="_parent">contoh 3</a>
+    <a href="">contoh 4</a>
+    <hr>
+
+    <p title="belajar css">ini kata yg dipilih</p>
+    <p title="belajarcss">ini kata yg tidak dipilih</p>
+    <hr>
+
+    <h1 title="belajar">ini kata yang dipilih</h1>
+    <h1 title="belajarcihuy">ini tidak dipilih</h1>
+    <h1 title="belajar-cihuy">ini dipilih</h1>
+    <hr>
+
+    <h2 title="belajar">ini dipilih</h2>
+    <h2 title="belajarcoy">ini dipilih</h2>
+    <h2 title="belajar-coy">ini dipilih</h2>
+    <h2 title="coy belajar">ini tidak dipilih</h2>
+    <hr>
+
+    <h3 title="cuy belajar">ini dipilih</h3>
+    <h3 title="belajar cuy">ini ngga dipilih</h3>
+    <h3 title="belajar">ini dipilih</h3>
+    <h3 title="cuy-belajar">ini dipilih</h3>
+    <hr>
+
+    <h4 title="belajar">ini dipilih</h4>
+    <h4 title="belajar dulu">ini dipilih</h4>
+    <h4 title="belajar-dulu">ini dipilih</h4>
+    <h4 title="dulu belajar">ini dipilih</h4>
+</body>
+
+</html>
