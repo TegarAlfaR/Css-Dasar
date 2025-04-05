@@ -1,8 +1,10 @@
+/* ini adalah style css untuk tag h1 */
 h1 {
   color: red;
   font-size: 20px;
 }
 
+/* ini adalah style css untuk tag h2 */
 h2 {
   color: blue;
   font-size: 15px;
